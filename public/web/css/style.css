@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+ body{
+     font-family:open sans;
+	 margin:0;
+	 padding:0;
+}
+
+ a:hover{
+     text-decoration: none!important;
+}
+.membership h2 {
+    color: #cd3162;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+a.active{
+color:#ff9934 !important;}
+a.fa {
+    color:#000;
+	}
+ a{
+     font-family:open sans;
+	 font-weight:700;
+}
+h1{
+text-align:center;
+font-size:44px;
+font-weight:800;
+color:#fff;
+margin-bottom: 32px;}
+ ul, h1, h2, h3, h4, h5, h6, p{
+     
+     font-family:open sans;
+}
+ li{
+     list-style:none;
+     font-family:open sans;
+}
+p{
+     font-family:open sans;
+}
+
+/*=-==-header=-=-=-=*/
+
+nav.navbar.navbar-light.menu {
+    padding: 0;
+}
+.menu a.nav-link{
+	float:right;
+	color: #fff !important;
+}
+
+.menu button.navbar-toggler {
+	background: #fff;
+	border: none !important;
+    font-size: 16px;
+}
+.bar_item ul {
+    display: inline-flex;
+    color: #fff;
+    margin: 0;
+}
+.bar_item li a {
+    /*background: #d9475c;
+    padding: 6px 11px;*/
+    margin-right: 40px;
+    font-size: 15px;
+}
+.bar_item a{
+	color:#fff;
+}
+.bar_item i.fa.fa-user {
+    font-size: 21px;
+    padding: 7px 30px 0 34px;
+}
+.bar_item .fa-user:before {
+    padding-right: 5px;
+}
+.bar_item {
+    padding-top: 0px;
+	margin: 0 0 0 auto;
+}
+.bar_item_1{
+	display:none;
+}
+.modal-title {
+    font-size: 24px;
+    color: #d9475c;
+    font-weight: 700;
+}
+.login-list {
+    padding: 20px;
+}
+.login-list label {
+    font-size: 20px;
+    color: black;
+}
+.login {
+    background-color: #34495e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding:8px;
+    width: 100%;
+}
+.login:hover {
+    color: #fff;
+}
+
+/*.modal-content{
+    background-image:url(..//img/login.png);
+    background-position:right;
+    background-repeat:no-repeat;
+}*/
+
+.log-hom a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.shaddi_belive{
+	background-color: #d9475c;
+    padding: 10px;
+}
+
+
+/*-=-=-=-=-=banner=-=-==-*/
+.banner{
+	background-image:url(..//img/banner.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:15% 0 10% 0;
+	margin-top: -79px;
+}
+
+.col-md-2.form-group {
+    background-color: #d9475c;
+    padding-bottom: 18px;
+    padding-top: 14px;
+}
+.btn.btn-dark {
+    padding: 7px 46px;
+    margin-top: 31px;
+}
+.banner label {
+    color: #fff;
+}
+.all_store {
+    background-color: #34495e;
+    padding: 24px;
+}
+.store_text h6 {
+    font-size: 31px;
+    color: #fff;
+}
+.store_text p
+{font-size: 14px;
+    color: #fff;
+}
+.store_text{
+	padding-top: 15%;
+}
+
+/*-=-=-=-=-=sucess stories=-=-==-*/
+.success{
+	background-image:url(..//img/sucess.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:6% 0;
+	text-align:center;
+}
+
+.success p {
+	margin-bottom: 40px;
+}
+.storie a {
+	color: #ffffff;
+	background-color: #34495e;
+	padding: 5px 26px;
+	font-weight: 500 !important;
+	font-size:13px;
+}
+.storie h6 {
+    color: #d9475c;
+    margin: 5px 0 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.storie p {
+	margin-bottom: 10px;
+	font-size:13px;
+}
+/*-=-=-=-=-=membership=-=-==-*/
+.membership{
+	text-align:center;
+	margin-top:60px;
+}
+.member{
+	background-image:url(..//img/high.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:19% 0;
+	text-align:center;
+	margin:35px 0;
+}
+
+.place{
+	background-image:url(..//img/place.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:19% 0;
+	text-align:center;
+	margin:35px 0;
+}
+
+.member h5 {
+    color:#fff;
+}
+.place h5 {
+	color:#fff;
+}
+
+.membership h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.membership ul {
+    line-height: 42px;
+}
+
+.membership_new_1{
+	text-align: left;
+}
+
+.membership_new_2{
+	text-align: left;
+}
+
+.membership_new_1 {
+    background-color: #fff;
+    box-shadow: 0px 6px 29px #e8e7e7;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.membership_new_2 {
+    background-color: #d9475c;
+    box-shadow: 0px 6px 29px #e8e7e7;
+    border-radius: 4px;
+    color: #fff;
+    padding: 19px;
+}
+.membership i.fa {
+    padding-right: 6px;
+}
+.membership ul {
+    padding: 0;
+}
+.membership_new_1 a {
+    font-size: 18px;
+    background-color: #d9475c;
+    color: #fff;
+    padding: 7px 13px;
+    font-weight: 500;
+}
+
+.membership_new_2 a {
+    color: #d9475c;
+    background-color: #fff;
+    padding: 7px 10px;
+}
+
+
+
+
+/*-=-=-=-=-=search-result page=-=-==-*/
+.sidebar-widget h3{
+font-size: 16px;}
+.marital label {
+    font-size: 14px;
+}
+.search-result-box {
+    background: #000;
+    padding: 11px;
+}
+.search-result-box h3 {
+    color: #fff;
+    font-size: 28px;
+}
+.filter-box-area{
+margin:40px 0;
+}
+
+.marital-box {
+    background-color: #ffffff;
+    padding: 28px;
+    box-shadow: 1px 3px 9px #dad5d5;
+}
+.card-title a {
+    font-size: 22px;
+    color: #cd3162;
+}
+
+.card-body p {
+    font-size: 14px;
+    line-height: 17px;
+}
+.card-body {
+    padding:14px;
+}
+
+.student p{ 
+    font-size: 14px;
+    width: 100%;}
+
+.profile-area{
+    background-color: #ffffff;
+    padding: 28px;
+    box-shadow: 1px 3px 9px #dad5d5;
+}
+.like a {
+    color: #fff;
+    font-size: 16px;
+    background-color: #cd3162;
+    padding: 8px 27px;
+    font-weight: 500;
+}
+
+/*-=-=-=-=-=Member profile=-=-==-*/
+.member_profile{
+	background-color:#d9475c;
+	padding:2% 0;
+	margin:55px 0 0 0;
+	text-align:center;
+}
+.profile h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.profile_1 {
+	display:none;
+}
+
+.profile img.d-block {
+    margin-left: 19px;
+}
+
+/*-=-=-=-=-=footer-----*/
+.footer{
+	background-color:#000;
+	padding:2% 0;
+}
+.footer p {
+    color: #fff;
+    padding-top: 18px;
+    color: #bfb5b8;
+    font-size: 14px;
+}
+.footer h5 {
+    color: #fff;
+    padding-top: 0;
+    font-size: 16px;
+}
+.footer a {
+	font-weight: 500;
+	color: #bfb5b8;
+	font-size: 14px;
+}
+.copy {
+	border-top: 1px solid #403b3b;
+	font-size: 13px;
+}
+.copy p{
+	margin:0;
+}
+
+/*=-=-==-=-==-=-=-success stories page-==-=-=-=-==-=-=-=-=-=*/
+.success_banner{
+    background-image:url(..//img/success_stories.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:9% 0;
+    text-align:center;
+}
+.success_banner h3{
+    color:#fff;
+    font-size: 42px;
+    font-weight: 700;}
+.married {
+    text-align:center;
+    background-color:#eeeeee;}
+.married h2 {
+    color: #000;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.married span{
+    color:#f12e74;}
+.married p {
+    font-size: 14px;
+    padding: 0 21px;
+}
+.married h6 {
+    padding-top: 30%;
+    color: #f12e74;
+}
+.married .row {
+    margin-top: 3%;
+}
+.man{
+    background-image:url(..//img/man.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:26% 0;
+    text-align:center;
+}
+
+.woman
+ {
+    background-image:url(..//img/woman.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:26% 0;
+    }
+.heart {
+    padding: 25% 0;
+}
+
+/*==-=-=-=-=-=-profile_page -=-==-=-=-*/
+.profile_page{
+    background-color:#eeeeee;}
+
+.profile_page{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.nandni h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.nandni {
+    background-color: #000;
+    padding: 12px;
+}
+.register-new input {
+    font-size: 14px;
+}
+.register-new h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #cd3162;
+}
+.my_self{
+    text-align:center;
+    margin: 40px 0;
+}
+.my_self h4 {
+    color: #cd3162;
+    font-weight: 700;
+    font-size: 28px;
+}
+.my_self p {
+    font-size: 16px;
+}
+.appearence {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.appearence h4 {
+    font-size: 28;
+    font-weight: 700;
+    color: #cd3162;
+}
+.appearence h6 {
+    padding-top: 10px;
+}
+.son{
+    font-size: 14px;
+    color: #827f7f;
+    padding-left: 9px;
+}
+.data li{
+    line-height: 40px;
+}
+
+  
+
+
+.banner .form-control {
+    border: 0px !important;
+    border-radius: 0 !important;
+	height: calc(1.8em + .75rem + 2px)!important;
+    padding: .375rem .75rem !important;
+    font-size: 13px !important;
+	color: #a9b1b8 !important;
+}
+
+.banner .form-group .btn-dark {
+    color: #fff !important;
+    background-color: #34495e !important;
+    border-color: #34495e !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+}
+.bar_item i.fa.fa-user {
+    /*font-size: 18px;*/
+    padding: 0;
+    margin-right: 28px;
+}
+.bar_item li.login-btn a {
+    margin-left: 0;
+    background: transparent;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px !important;
+}
+.menu.navbar-light .navbar-toggler {
+    color: rgb(255 255 255);
+    border-style: inherit;
+    font-size: 25px;
+}
+.banner h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 32px;
+    text-shadow: 0px 2px 10px black;
+    font-family: cursive;
+}
+.bar_item li.login-btn {
+    margin: 0px 0 0 12px;
+}
+
+
+.success h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about_banner {
+    background-image: url(..//img/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13% 0 10% 0;
+    margin-top: -69px;
+}
+
+.about_banner h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about_page {
+    margin: 65px 0;
+}
+
+.aboutpage_text p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.aboutpage_text h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.ab_text h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.ab_text p {
+    font-size: 16px;
+    text-align: center;
+}
+.ab_text {
+    margin-bottom: 65px;
+}
+
+/*=================contact page============*/
+.contact_banner {
+    background-image:url(..//img/contact.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 13% 0 10% 0;
+    margin-top: -69px;
+}
+
+.contact_banner h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.contact_page {
+    margin: 60px 0;
+}
+.name {
+    padding: 10px;
+}
+
+.send {
+    background-color: #cd3162;
+    border: none;
+}
+
+.contact_page h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*========help page===========*/
+.help_banner h3 {
+    font-size: 28px;
+    color: #fff;
+}
+.help_banner {
+    background: black;
+    padding: 11px;
+}
+
+.envelo {
+    text-align: center;
+    background-color: #f3f3f3;
+    box-shadow: 6px 6px 6px gainsboro;
+    padding: 32px 0;
+}
+.info {
+    margin: 50px 0;
+}
+.envelo i.fa.fa {
+    font-size: 35px;
+    color: #cd3162;
+    padding: 5px;
+}
+.envelo h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #cd3162;
+}
+.envelo a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.faq-list button.btn.btn {
+    color: #cd3162;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faq-list {
+    margin-bottom: 50px;
+}
+/*==-=-=-=-=-=-Membership page-=-==-=-=-*/
+.membership_banner{
+    background-image:url(..//img/membership.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:10% 0;
+
+}
+.membership_banner h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 12px #544d4d;
+    text-align: center;
+}
+.elite h6 {
+    text-align: center;
+    font-size: 24px;
+}
+.elite{
+text-align: center;
+}
+
+.elite {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 4px 11px #dadada;
+    padding: 60px 0;
+}
+
+.profile-highlight {
+    margin-top: -108px;
+    margin-bottom: 40px;
+}
+
+.elite h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.elite a {
+    color: white;
+    background: #cd3162;
+    padding: 6px 19px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.elite p {
+    font-size: 15px;
+    line-height: 16px;
+}
+.elite-super {
+    padding-top: 27px;
+}
+
+/*==-=-=-=-=-=-Media Query-=-==-=-=-*/
+@media only screen and (max-width: 767px) {
+.menu {
+    padding: 10px 0 !important;
+}
+.banner h1 {
+    font-size: 28px;}
+	
+.bar_item{
+    display:none;}
+.bar_item_1{
+    display:block;
+    text-align: right;
+    color: #fff;
+}
+.bar_item_1 a{color:#fff;}
+.bar_item_1 li{
+    margin-top:15px;}
+.fa-user:before {
+    padding-right: 10px;}
+.bar_item_1 i.fa.fa-user {
+    margin: 13px 0;
+    font-size: 22px;
+}
+.btn.btn-dark {
+    width: 100%;
+    margin-top: 5px !important;
+}
+.membership {
+    margin-top: 23px;
+}
+
+.profile{
+    display:none;}
+.profile_1{
+    display:block;
+}
+.profile_1 .d-block{
+    margin:0 auto;}
+
+.profile_1 h2{
+    color:#fff;}
+
+.storie {
+    padding-bottom: 25px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.profile-highlight {
+    margin-top: 0;
+}
+.elite {
+    margin-top: 20px;
+}
+.like_shaddi {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+.success_banner h3 {
+    font-size: 28px;
+}
+
+.success_banner {
+    padding: 14% 0;
+}
+.married h2 {
+    font-size: 24px;
+}
+.man h3 {
+    font-size: 20px;
+}
+.woman h3 {
+    font-size: 20px;
+}
+
+.about_banner h2 {
+    font-size: 28px;
+}
+.about_banner {
+    padding: 14% 0;
+}
+.aboutpage_text h2 {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.ab_text h3 {
+    font-size: 20px;
+}
+
+.contact_banner h2 {
+    font-size: 28px;
+}
+.contact_page h3 {
+    font-size: 20px;
+}
+
+.profile_1 h2 {
+    font-size: 24px;
+}
+
+.profile-highlight {
+    margin-top: 0;
+}
+.elite {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

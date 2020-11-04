@@ -1,0 +1,34 @@
+@extends('layouts.web')
+@section('content')
+<!--banner -->
+<div class="about_banner">
+	<div class="container">
+		<h2>About Us</h2>
+	</div>
+</div>
+
+<div class="about_page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="aboutpage_1">
+					<img src="{{asset('public/web/img/about_1.jpg')}}" alt="image" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-md-6 d-flex flex-wrap align-content-center">
+				<div class="aboutpage_text">
+				<h2>Lorem Ipsum</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ab_text">
+	<div class="container">
+		<h3><span>Lorem Ipsum </span>Is Simply Dummy</h3>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+</div>
+
+@endsection

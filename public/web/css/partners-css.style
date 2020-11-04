@@ -1,0 +1,40 @@
+a.our-partner-link {
+	padding: 8px;
+	background: #fff;
+	height: 100%;
+	box-shadow: 0px 2px 6px #666666;
+}
+section.our-partners-section {
+	padding: 50px 0;
+}
+.our-partners-section h4.headings {
+	font-size: 30px;
+	FONT-WEIGHT: 800;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+
+
+@media (max-width: 991px){
+	/** WFH 18-Jun-2020**/
+	section.our-partners-section {
+		padding: 30px 0;
+	}
+	.partner-image-div {
+		margin: 0 0 15px;
+	}
+	.our-partners-section h4.headings {
+		font-size: 20px;
+	}
+	/** WFH 18-Jun-2020**/
+	
+}
+
+/*WFH 18-Jun-2020*/ 
+	.partner-image-div {
+		margin: 0 0 15px;
+	}
+	
+	/*WFH 18-Jun-2020*/ 
+	
+}
